@@ -1,0 +1,54 @@
+{
+  "seller": [
+    {
+      "id": "e148",
+      "name": "Anil Sidhu",
+      "email": "anil@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "f70c",
+      "name": "Pulkit Mittal",
+      "email": "pulkit@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "e035",
+      "name": "tony",
+      "password": "abc@123",
+      "email": "tony@test.com"
+    },
+    {
+      "id": "75e1",
+      "name": "alena",
+      "password": "abc@123",
+      "email": "alena@test.com"
+    },
+    {
+      "id": "4f5a",
+      "name": "peter",
+      "password": "abc@test.com",
+      "email": "test@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Apple iPhone 16 (White, 128 GB)",
+      "price": "₹119900.00",
+      "color": "White",
+      "category": "mobile",
+      "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
+      "image": "https://www.pngmart.com/files/2/Smartphone-PNG-Image.png",
+      "id": "5cdb"
+    },
+    {
+      "id": "f1b1",
+      "name": "SAMSUNG Galaxy Z Fold6 5G (Silver Shadow, 256 GB)  (12 GB RAM)",
+      "price": "₹1,49,999",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "12 GB RAM | 256 GB ROM\n\n19.3 cm (7.6 inch) QXGA+ Display\n\n50MP + 12MP + 10MP | 10MP Front Camera\n\n4400 mAh Lithium ion Battery\n\nSnapdragon 8 Gen 3 Processor",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    }
+  ]
+}
