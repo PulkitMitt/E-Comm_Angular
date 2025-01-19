@@ -7,11 +7,10 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-seller-home',
-  imports: [CommonModule, RouterLink],
-  standalone: true,
-  templateUrl: './seller-home.component.html',
-  styleUrl: './seller-home.component.css'
+    selector: 'app-seller-home',
+    imports: [CommonModule, RouterLink],
+    templateUrl: './seller-home.component.html',
+    styleUrl: './seller-home.component.css'
 })
 export class SellerHomeComponent implements OnInit {
 

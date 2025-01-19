@@ -4,11 +4,11 @@ import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
 
 @Component({
-  selector: 'app-seller-add-product',
-  standalone:true,
-  imports: [ FormsModule],
-  templateUrl: './seller-add-product.component.html',
-  styleUrl: './seller-add-product.component.css'
+    selector: 'app-seller-add-product',
+    standalone:true,
+    imports: [FormsModule],
+    templateUrl: './seller-add-product.component.html',
+    styleUrl: './seller-add-product.component.css'
 })
 export class SellerAddProductComponent implements OnInit{
   
