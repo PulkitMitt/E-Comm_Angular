@@ -1,1 +1,50 @@
-<h1>Home Page</h1>
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Loop through carouselItems and generate slides -->
+      <div *ngFor="let item of popularProducts; let i = index" 
+           [ngClass]="{'carousel-item': true, 'active': i === 0}">
+        <img [src]="item.image" class="d-block w-57" alt="Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>{{ item.name }}</h5>
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="product-list-wrapper">
+    <h1>Trendy Products</h1>
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let item of trendyProducts">
+
+
+        <div class="product-item">
+          <img src="{{item.image}}" />
+          <div class="product-details">
+            <h6 class="name-head">{{item.name}}</h6>
+            <div class="product-price">
+              <h6>{{item.price}}</h6>
+            </div>
+            <div class="product-color">
+              <h6>{{item.color}}</h6>
+            </div>
+          </div>
+          <div class="product-footer">
+            <a href="">View details</a>
+            <a href="">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>

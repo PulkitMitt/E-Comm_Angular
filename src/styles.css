@@ -32,3 +32,30 @@ body {
     color: green;
     text-align: center;
   }
+
+  /* .carousel-caption {
+    background-color: #0000008f;
+    border-radius: 5px;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+  } */
+
+  .carousel-inner img {
+    width: 57%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 275px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+  }
+  

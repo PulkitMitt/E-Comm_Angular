@@ -38,7 +38,7 @@
       "color": "White",
       "category": "mobile",
       "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
-      "image": "https://www.pngmart.com/files/2/Smartphone-PNG-Image.png",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
       "id": "5cdb"
     },
     {
@@ -49,6 +49,42 @@
       "category": "Mobile",
       "description": "12 GB RAM | 256 GB ROM\n\n19.3 cm (7.6 inch) QXGA+ Display\n\n50MP + 12MP + 10MP | 10MP Front Camera\n\n4400 mAh Lithium ion Battery\n\nSnapdragon 8 Gen 3 Processor",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "ccfa",
+      "name": "HP Victus 15 AMD Ryzen 5 Hexa Core 5600H ",
+      "price": "₹49,490",
+      "color": "Grey",
+      "category": "Laptop",
+      "description": "8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "ccfa",
+      "name": "Puma Mens Dazzler Sneaker ",
+      "price": "₹1500",
+      "color": "Blackish White",
+      "category": "Shoes",
+      "description": "Style Name:- Casual Shoe Model Name:- Dazzler Brand Color:-PUMA Black-PUMA Silver Wipe with a clean dry cloth",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
+    },
+    {
+      "id": "ccfa",
+      "name": "Ben Martin Jeans",
+      "price": "₹1800",
+      "color": "Blue",
+      "category": "Jeans",
+      "description": "Ben Martin Men's Casual Stretchable Denim Tapered Fit Carrot Jeans_1",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
+    },
+    {
+      "id": "ccfa",
+      "name": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch",
+      "price": "₹2200",
+      "color": "Grey",
+      "category": "Smart watch",
+      "description": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch with Biggest 1.96 AMOLED Display, Premium Metallic Build, Functional Crown, Gesture Control with Metallic Strap (Jet Black: Elite Edition)",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
     }
   ]
 }
