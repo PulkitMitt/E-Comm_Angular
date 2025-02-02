@@ -6,6 +6,10 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 import { NgModule } from '@angular/core';
+import { SearchComponent } from './search/search.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
 export const routes: Routes = [
     {
@@ -29,9 +33,23 @@ export const routes: Routes = [
         path:'seller-update-product/:id',
         canActivate:[AuthGuard]
       },
+      {
+        component:SearchComponent,
+        path:'search/:query'
+      },
+      {
+        component:ProductDetailsComponent,
+        path:'details/:productId'
+      },
+      {
+        component:UserAuthComponent,
+        path:'user-auth'
+      }
 ];
 @NgModule({
     // imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule],
+    imports:[]
+    
   })
   export class AppRoutingModule {}

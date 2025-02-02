@@ -15,6 +15,7 @@ export class ProductService {
 
   productList()
   {
+    debugger;
     return this.http.get<product[]>('http://localhost:3000/products');
   }
 
@@ -24,6 +25,7 @@ export class ProductService {
   }
 
   getProduct(id:string){
+    debugger;
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
   }
 
@@ -38,4 +40,11 @@ export class ProductService {
   trendyProducts(){
     return this.http.get<product[]>("http://localhost:3000/products?_limit=7");
   }
+
+  searchProducts(query: string){
+    return this.http.get<product[]>(
+      `http://localhost:3000/products?q=${query}`
+    );
+  }
+
 }

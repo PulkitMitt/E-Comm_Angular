@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { ProductService } from '../services/product.service';
+import { product } from '../data-type';
 // import {}
 @Component({
   selector: 'app-header',
@@ -12,8 +14,10 @@ import { CommonModule } from '@angular/common';
 export class HeaderComponent implements OnInit{
 
   menuType:string = 'default';
-  constructor(private route: Router){}
+  constructor(private route: Router, private product: ProductService){}
   sellerName:string='';
+  searchResult:undefined | product[];
+  username : string = "";
   ngOnInit(): void {
     this.route.events.subscribe((val:any) => {
       if(val.url){
@@ -26,6 +30,12 @@ export class HeaderComponent implements OnInit{
             this.sellerName = sellerData.name;
           }
         }
+        else if (localStorage.getItem('user')){
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.username = userData.name;
+          this.menuType = 'user';
+        }
         else{
           this.menuType='default';
         }
@@ -36,5 +46,33 @@ export class HeaderComponent implements OnInit{
   logout(){
     localStorage.removeItem('seller');
     this.route.navigate(['/']);
+  }
+
+  UserLogOut(){
+    localStorage.removeItem('user');
+    this.route.navigate(['user-auth']);
+  }
+  searchProducts(query: KeyboardEvent){
+    if(query){
+      const element = query.target as HTMLInputElement;
+      
+      this.product.searchProducts(element.value).subscribe((result) => {
+        this.searchResult = result;
+        console.log(this.searchResult);
+      })
+    }
+  }
+
+  hideSearch(){
+    this.searchResult=undefined;
+  }
+
+  submitSearch(val:string){
+    debugger;
+    this.route.navigate([`search/${val}`]);
+  }
+  redirectToDetails(id:string){
+    debugger;
+    this.route.navigate([`details/${id}`]);
   }
 }

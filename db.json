@@ -39,10 +39,10 @@
       "category": "mobile",
       "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "5cdb"
+      "id": "1"
     },
     {
-      "id": "f1b1",
+      "id": "2",
       "name": "SAMSUNG Galaxy Z Fold6 5G (Silver Shadow, 256 GB)  (12 GB RAM)",
       "price": "₹1,49,999",
       "color": "Silver",
@@ -51,7 +51,7 @@
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
     },
     {
-      "id": "ccfa",
+      "id": "3",
       "name": "HP Victus 15 AMD Ryzen 5 Hexa Core 5600H ",
       "price": "₹49,490",
       "color": "Grey",
@@ -60,7 +60,7 @@
       "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
     },
     {
-      "id": "ccfa",
+      "id": "4",
       "name": "Puma Mens Dazzler Sneaker ",
       "price": "₹1500",
       "color": "Blackish White",
@@ -69,7 +69,7 @@
       "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
     },
     {
-      "id": "ccfa",
+      "id": "5",
       "name": "Ben Martin Jeans",
       "price": "₹1800",
       "color": "Blue",
@@ -78,13 +78,33 @@
       "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
     },
     {
-      "id": "ccfa",
+      "id": "6",
       "name": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch",
       "price": "₹2200",
       "color": "Grey",
       "category": "Smart watch",
       "description": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch with Biggest 1.96 AMOLED Display, Premium Metallic Build, Functional Crown, Gesture Control with Metallic Strap (Jet Black: Elite Edition)",
       "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
+    }
+  ],
+  "users": [
+    {
+      "id": "7abc",
+      "name": "steve",
+      "email": "steve@gmail.com",
+      "password": "steve123"
+    },
+    {
+      "id": "4eda",
+      "name": "joe",
+      "email": "joe@gmail.com",
+      "password": "joe123"
+    },
+    {
+      "id": "3a40",
+      "name": "kane",
+      "email": "kane@gmail.com",
+      "password": "kane123"
     }
   ]
 }

@@ -22,6 +22,7 @@ export class SellerHomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.getList();
+    console.log(this.productList);
   }
 
   deleteProduct (id:string){
@@ -37,7 +38,9 @@ export class SellerHomeComponent implements OnInit {
   }
 
   getList(){
+    debugger;
     this.product.productList().subscribe((result) => {
+      debugger;
       this.productList = result;
     })
   }

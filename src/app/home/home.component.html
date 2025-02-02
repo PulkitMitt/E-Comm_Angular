@@ -3,7 +3,7 @@
       <!-- Loop through carouselItems and generate slides -->
       <div *ngFor="let item of popularProducts; let i = index" 
            [ngClass]="{'carousel-item': true, 'active': i === 0}">
-        <img [src]="item.image" class="d-block w-57" alt="Slide">
+           <a routerLink="/details/{{item.id}}"><img [src]="item.image" class="d-block w-57" alt="Slide"></a>
         <div class="carousel-caption d-none d-md-block">
           <h5>{{ item.name }}</h5>
           <p>{{ item.description }}</p>
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="product-footer">
-            <a href="">View details</a>
+            <a routerLink="/details/{{item.id}}">View details</a>
             <a href="">Add to Cart</a>
           </div>
         </div>
