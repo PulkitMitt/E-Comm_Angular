@@ -14,10 +14,11 @@ import { product } from '../data-type';
 export class HeaderComponent implements OnInit{
 
   menuType:string = 'default';
-  constructor(private route: Router, private product: ProductService){}
   sellerName:string='';
   searchResult:undefined | product[];
   username : string = "";
+  cartItems=0;
+  constructor(private route: Router, private product: ProductService){}
   ngOnInit(): void {
     this.route.events.subscribe((val:any) => {
       if(val.url){
@@ -40,6 +41,13 @@ export class HeaderComponent implements OnInit{
           this.menuType='default';
         }
       }
+    });
+    let cartData = localStorage.getItem('localCart');
+    if(cartData){
+      this.cartItems = JSON.parse(cartData).length;
+    }
+    this.product.cartData.subscribe((items) => {
+      this.cartItems = items.length;
     })
   }
 
