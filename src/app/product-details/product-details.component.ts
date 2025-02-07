@@ -17,10 +17,10 @@ export class ProductDetailsComponent implements OnInit{
   removeCart = false;
   constructor (private activeRoute: ActivatedRoute, private product : ProductService){}
   ngOnInit(): void {
-    debugger;
+    
     let productId = this.activeRoute.snapshot.paramMap.get('productId');
     productId && this.product.getProduct(productId).subscribe((result) =>{
-      debugger;
+  
       this.productData = result;
     });
 
@@ -47,21 +47,20 @@ export class ProductDetailsComponent implements OnInit{
   }
 
   addToCart(){
-    debugger;
+
     if(this.productData){
       this.productData.quantity = this.productQuantity;
       if(!localStorage.getItem('user')){
         this.product.localAddToCart(this.productData);
+        this.removeCart = true;
       }
-      else{
-        let user = localStorage.getItem('user');
-        
-      }
+
     }
   }
 
   removeFromCart(productId:string){
-
+    this.product.removeItemFromCart(productId);
+    this.removeCart = false;
   }
 
 }

@@ -12,7 +12,7 @@ export class ProductService {
 
   
   localAddToCart(data: product) {
-    debugger;
+  
     let cartData = [];
     let localCart = localStorage.getItem('localCart');
     if( !localCart ){
@@ -27,6 +27,17 @@ export class ProductService {
     }
   }
 
+  removeItemFromCart( productId : string){
+    debugger;
+    let cartData = localStorage.getItem('localCart');
+    if(cartData){
+      let items : product [] = JSON.parse(cartData);
+      items = items.filter((item:product) => productId !== item.id)
+      localStorage.setItem('localCart', JSON.stringify(items) );
+      this.cartData.emit(items);
+    }
+  }
+
 
   addProduct(data: product){
     return this.http.post("http://localhost:3000/products", data);
@@ -34,7 +45,7 @@ export class ProductService {
 
   productList()
   {
-    debugger;
+ 
     return this.http.get<product[]>('http://localhost:3000/products');
   }
 
@@ -44,7 +55,7 @@ export class ProductService {
   }
 
   getProduct(id:string){
-    debugger;
+    
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
   }
 
