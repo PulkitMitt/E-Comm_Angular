@@ -71,7 +71,7 @@ export class ProductDetailsComponent implements OnInit{
         this.product.localAddToCart(this.productData);
         this.removeCart = true;
       }
-      else {
+      else { 
         // user is login 
         let user = localStorage.getItem('user');
         let userId = user && JSON.parse(user).id;

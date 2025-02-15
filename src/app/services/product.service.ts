@@ -19,7 +19,6 @@ export class ProductService {
     let localCart = localStorage.getItem('localCart');
     if( !localCart ){
       localStorage.setItem('localCart', JSON.stringify([data]));
-      // this.cartData.emit();
       this.cartData.emit([data]);
     }
     else{
@@ -97,6 +96,12 @@ export class ProductService {
   removeToCart(cartId: string) {
     debugger;
     return this.http.delete('http://localhost:3000/cart/'+ cartId);
+  }
+
+  currentCart(){
+    let user = localStorage.getItem('user');
+    let userData = user && JSON.parse(user);
+    return this.http.get<cart[]>('http://localhost:3000/cart?userId=' + userData.id); 
   }
 
 }

@@ -34,7 +34,7 @@
   "products": [
     {
       "name": "Apple iPhone 16 (White, 128 GB)",
-      "price": "₹119900.00",
+      "price": 119900,
       "color": "White",
       "category": "mobile",
       "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
@@ -44,7 +44,7 @@
     {
       "id": "2",
       "name": "SAMSUNG Galaxy Z Fold6 5G (Silver Shadow, 256 GB)  (12 GB RAM)",
-      "price": "₹1,49,999",
+      "price": 149999,
       "color": "Silver",
       "category": "Mobile",
       "description": "12 GB RAM | 256 GB ROM\n\n19.3 cm (7.6 inch) QXGA+ Display\n\n50MP + 12MP + 10MP | 10MP Front Camera\n\n4400 mAh Lithium ion Battery\n\nSnapdragon 8 Gen 3 Processor",
@@ -53,7 +53,7 @@
     {
       "id": "3",
       "name": "HP Victus 15 AMD Ryzen 5 Hexa Core 5600H ",
-      "price": "₹49,490",
+      "price": 49490,
       "color": "Grey",
       "category": "Laptop",
       "description": "8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650",
@@ -62,7 +62,7 @@
     {
       "id": "4",
       "name": "Puma Mens Dazzler Sneaker ",
-      "price": "₹1500",
+      "price": 1500,
       "color": "Blackish White",
       "category": "Shoes",
       "description": "Style Name:- Casual Shoe Model Name:- Dazzler Brand Color:-PUMA Black-PUMA Silver Wipe with a clean dry cloth",
@@ -71,7 +71,7 @@
     {
       "id": "5",
       "name": "Ben Martin Jeans",
-      "price": "₹1800",
+      "price": 1800,
       "color": "Blue",
       "category": "Jeans",
       "description": "Ben Martin Men's Casual Stretchable Denim Tapered Fit Carrot Jeans_1",
@@ -80,7 +80,7 @@
     {
       "id": "6",
       "name": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch",
-      "price": "₹2200",
+      "price": 2200,
       "color": "Grey",
       "category": "Smart watch",
       "description": "Noise ColorFit Ultra 3 Bluetooth Calling Smart Watch with Biggest 1.96 AMOLED Display, Premium Metallic Build, Functional Crown, Gesture Control with Metallic Strap (Jet Black: Elite Edition)",
@@ -107,30 +107,5 @@
       "password": "kane123"
     }
   ],
-  "cart": [
-    {
-      "id": "14cc",
-      "name": "HP Victus 15 AMD Ryzen 5 Hexa Core 5600H ",
-      "price": "₹49,490",
-      "color": "Grey",
-      "category": "Laptop",
-      "description": "8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "quantity": 1,
-      "userId": "3a40",
-      "productId": "3"
-    },
-    {
-      "id": "25f7",
-      "name": "Apple iPhone 16 (White, 128 GB)",
-      "price": "₹119900.00",
-      "color": "White",
-      "category": "mobile",
-      "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 1,
-      "userId": "3a40",
-      "productId": "1"
-    }
-  ]
+  "cart": []
 }
