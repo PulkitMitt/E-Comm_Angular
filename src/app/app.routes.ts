@@ -11,6 +11,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 export const routes: Routes = [
     {
@@ -49,7 +50,12 @@ export const routes: Routes = [
       {
         component:CartPageComponent,
         path:'cart-page'
+      },
+      {
+        component: CheckoutComponent,
+        path:'checkout'
       }
+      
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

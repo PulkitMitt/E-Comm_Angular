@@ -107,5 +107,28 @@
       "password": "kane123"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "94b6",
+      "name": "SAMSUNG Galaxy Z Fold6 5G (Silver Shadow, 256 GB)  (12 GB RAM)",
+      "price": 149999,
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "12 GB RAM | 256 GB ROM\n\n19.3 cm (7.6 inch) QXGA+ Display\n\n50MP + 12MP + 10MP | 10MP Front Camera\n\n4400 mAh Lithium ion Battery\n\nSnapdragon 8 Gen 3 Processor",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "userId": "3a40",
+      "productId": "2"
+    }
+  ],
+  "orders": [
+    {
+      "id": "3b76",
+      "email": "pulkitmittal194@gmail.com",
+      "address": "H.No 177/T-9, ward no. 2, Mehrauli, nr. Prince public school",
+      "contact": "08178108604",
+      "totalPrice": 150099,
+      "userId": "3a40"
+    }
+  ]
 }

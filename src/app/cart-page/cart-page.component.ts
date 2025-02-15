@@ -12,11 +12,12 @@ import { CommonModule } from '@angular/common';
   styleUrl: './cart-page.component.css'
 })
 export class CartPageComponent implements OnInit{
+
 removeToCart(arg0: any) {
 throw new Error('Method not implemented.');
 }
   
-  constructor(private product : ProductService, private route: Router){}
+  constructor(private product : ProductService, private router: Router){}
   
   ngOnInit(): void {
     this.loadDetails();
@@ -53,4 +54,7 @@ throw new Error('Method not implemented.');
     })
   }
   
+  checkout() {
+    this.router.navigate(["/checkout"]);
+  }
 }
