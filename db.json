@@ -107,32 +107,7 @@
       "password": "kane123"
     }
   ],
-  "cart": [
-    {
-      "id": "160a",
-      "name": "Apple iPhone 16 (White, 128 GB)",
-      "price": 119900,
-      "color": "White",
-      "category": "mobile",
-      "description": "17.43 cm (6.9″) or 15.93 cm (6.3″)\n\nSuper Retina XDR display footnote ¹\n\nProMotion technology\n\nAlways-On display",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 1,
-      "productId": "1",
-      "userId": "4eda"
-    },
-    {
-      "id": "3f8b",
-      "name": "HP Victus 15 AMD Ryzen 5 Hexa Core 5600H ",
-      "price": 49490,
-      "color": "Grey",
-      "category": "Laptop",
-      "description": "8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "quantity": 1,
-      "productId": "3",
-      "userId": "4eda"
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "id": "899d",
@@ -141,6 +116,22 @@
       "contact": "08178108604",
       "totalPrice": 1600,
       "userId": "3a40"
+    },
+    {
+      "id": "4801",
+      "email": "pulkitmittal194@gmail.com",
+      "address": "H.No 177/T-9, ward no. 2, Mehrauli, nr. Prince public school",
+      "contact": "08178108604",
+      "totalPrice": 121500,
+      "userId": "4eda"
+    },
+    {
+      "id": "0d39",
+      "email": "pulkitmittal194@gmail.com",
+      "address": "H.No 177/T-9, ward no. 2, Mehrauli, nr. Prince public school",
+      "contact": "08178108604",
+      "totalPrice": 2300,
+      "userId": "4eda"
     }
   ]
 }

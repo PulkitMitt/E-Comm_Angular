@@ -150,4 +150,9 @@ For any questions, feel free to reach out to the project owner via [email or Git
 This updated version now includes all the sections you asked for. It provides a comprehensive view of your e-commerce project, covering setup, features, API details, and additional improvements.
 ```
 
-
+![Alt text](2.png)
+![Alt text](3.png)
+![Alt text](4.png)
+![Alt text](5.png)
+![Alt text](6.png)
+![Alt text](7.png)
