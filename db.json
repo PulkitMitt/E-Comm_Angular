@@ -107,28 +107,6 @@
       "password": "kane123"
     }
   ],
-  "cart": [
-    {
-      "id": "e949",
-      "name": "Puma Mens Dazzler Sneaker ",
-      "price": 1500,
-      "color": "Blackish White",
-      "category": "Shoes",
-      "description": "Style Name:- Casual Shoe Model Name:- Dazzler Brand Color:-PUMA Black-PUMA Silver Wipe with a clean dry cloth",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "quantity": 3,
-      "userId": "3a40",
-      "productId": "4"
-    }
-  ],
-  "orders": [
-    {
-      "id": "3b76",
-      "email": "pulkitmittal194@gmail.com",
-      "address": "H.No 177/T-9, ward no. 2, Mehrauli, nr. Prince public school",
-      "contact": "08178108604",
-      "totalPrice": 150099,
-      "userId": "3a40"
-    }
-  ]
+  "cart": [],
+  "orders": []
 }
