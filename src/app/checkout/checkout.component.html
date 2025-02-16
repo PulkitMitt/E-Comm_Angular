@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-sm-7">
         <h3>Add shipping address</h3>
-        <!-- <p class="message-p">{{orderMsg}}</p> -->
+        <p class="p-message">{{orderMsg}}</p>
         <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
 
           <input type="text" class="form-input" placeholder="Enter User Email" name="email" ngModel />

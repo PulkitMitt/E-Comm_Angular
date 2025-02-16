@@ -9,6 +9,8 @@ import { response } from 'express';
 export class ProductService {
 
 
+
+
   
   cartData = new EventEmitter<product[] | []>();
   constructor(private http: HttpClient) { }
@@ -109,4 +111,23 @@ export class ProductService {
     debugger;
     return this.http.post('http://localhost:3000/orders', data);
   }
+
+  orderList() {
+    let user = localStorage.getItem('user');
+    let userData = user && JSON.parse(user);
+    return this.http.get<order[]>('http://localhost:3000/orders?userId='+ userData.id);
+  }
+
+  deleteCartItems(cartId: string) {
+    debugger;
+    return this.http.delete('http://localhost:3000/cart/' + cartId).subscribe((result)=>{
+      this.cartData.emit([]);
+    })
+    
+  }
+
+  cancelOrders(orderId: number|undefined){
+    return this.http.delete('http://localhost:3000/orders/' + orderId)
+  }
+
 }

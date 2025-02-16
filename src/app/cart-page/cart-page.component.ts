@@ -13,9 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 export class CartPageComponent implements OnInit{
 
-removeToCart(arg0: any) {
-throw new Error('Method not implemented.');
-}
+
   
   constructor(private product : ProductService, private router: Router){}
   
@@ -51,6 +49,12 @@ throw new Error('Method not implemented.');
 
 
 
+    })
+  }
+
+  removeToCart(cartId: string | undefined) {
+    cartId && this.cartData && this.product.removeToCart(cartId).subscribe((result) =>{
+      this.loadDetails();
     })
   }
   

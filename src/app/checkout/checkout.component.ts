@@ -16,6 +16,7 @@ export class CheckoutComponent implements OnInit{
 
   totalPrice : number | undefined;
   cartData : cart[] | undefined;
+  orderMsg : string | undefined;
 
   constructor(private product: ProductService, private router: Router){}
 
@@ -40,12 +41,23 @@ export class CheckoutComponent implements OnInit{
       let orderData : order = {
         ...data,
         totalPrice: this.totalPrice,
-        userId
+        userId,
+        id:undefined
       }
+
+      this.cartData?.forEach((item) => {
+        setTimeout(() => {
+          item.id && this.product.deleteCartItems(item.id)
+        }, 800)
+      })
 
       this.product.orderNow(orderData).subscribe((result) => {
         if(result){
-          console.log(result);
+          this.orderMsg = "Order has been placed!!";
+          setTimeout(() =>{
+            this.orderMsg = undefined;
+            this.router.navigate(['/my-orders']);
+          }, 4000);
         }
       })
     }
